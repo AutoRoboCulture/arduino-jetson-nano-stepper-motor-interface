@@ -151,93 +151,9 @@ void Serial3Call() {
       steps[2] = round((-65)*(MICROSTEP/360));
       controlStepper(steps);
       delay(1000);
-      /*
-      for (int k = 0; k < loopCount; k++)
-      {
-        steps[0] = round((-80)*(MICROSTEP/360));
-        steps[1] = round((-100)*(MICROSTEP/360));
-        steps[2] = round((-100)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(200);
-        steps[0] = round((-100)*(MICROSTEP/360));
-        steps[1] = round((-80)*(MICROSTEP/360));
-        steps[2] = round((-100)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(200);
-        steps[0] = round((-100)*(MICROSTEP/360));
-        steps[1] = round((-100)*(MICROSTEP/360));
-        steps[2] = round((-80)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(200);
-      }
-      
-      steps[0] = round((-60)*(MICROSTEP/360));
-      steps[1] = round((-60)*(MICROSTEP/360));
-      steps[2] = round((-60)*(MICROSTEP/360));
-      */
+
       controlStepper(steps);
     }
-
-   /* //TEST random actions fixed value
-    else if ((recData[0] == 'T') || (recData[0] == 't')) {
-      //Extracting input string and getting degree of 3 motors
-      int len = recData.length();
-      String s1 = recData.substring(1, len);
-
-      int loopCount = s1.toInt();
-
-      Serial.print("Number of Times ");
-      Serial.println(loopCount);
-
-      steps[0] = round((-60)*(MICROSTEP/360));
-      steps[1] = round((-60)*(MICROSTEP/360));
-      steps[2] = round((-60)*(MICROSTEP/360));
-      controlStepper(steps);
-      delay(1000);
-
-      
-      for (int k = 0; k < loopCount; k++)
-      {
-        steps[0] = round((-25)*(MICROSTEP/360));
-        steps[1] = round((-64)*(MICROSTEP/360));
-        steps[2] = round((-87)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(100);
-        steps[0] = round((-33)*(MICROSTEP/360));
-        steps[1] = round((-79)*(MICROSTEP/360));
-        steps[2] = round((-94)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(100);
-        steps[0] = round((-91)*(MICROSTEP/360));
-        steps[1] = round((-52)*(MICROSTEP/360));
-        steps[2] = round((-36)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(100);
-        steps[0] = round((-51)*(MICROSTEP/360));
-        steps[1] = round((-22)*(MICROSTEP/360));
-        steps[2] = round((-76)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(100);
-        steps[0] = round((-88)*(MICROSTEP/360));
-        steps[1] = round((-66)*(MICROSTEP/360));
-        steps[2] = round((-33)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(100);
-        steps[0] = round((-70)*(MICROSTEP/360));
-        steps[1] = round((-70)*(MICROSTEP/360));
-        steps[2] = round((-30)*(MICROSTEP/360));
-        controlStepper(steps);
-        delay(100);
-      }
-      
-      
-      steps[0] = round((-70)*(MICROSTEP/360));
-      steps[1] = round((-60)*(MICROSTEP/360));
-      steps[2] = round((-60)*(MICROSTEP/360));
-      
-      controlStepper(steps);
-  
-    }*/
   }
 
   //GET VALUE FROM MOTOR (READ)
