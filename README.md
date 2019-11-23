@@ -13,5 +13,6 @@ Control Arduino uno/mega/nano with Jetson nano linux command line
 | Specification | Value |
 | ------------- | ------------- |
 | Arduino | Mega 2560 |
-| 3 Stepper  |87kgcm torque |
+| 3 Stepper with 6A driver  |87kgcm torque |
 | 3 limit switch | 5v |
+| UART | USB-UART cable |
