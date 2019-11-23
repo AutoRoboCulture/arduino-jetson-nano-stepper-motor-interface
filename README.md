@@ -1,4 +1,4 @@
-# Arduino-Jetson-nano-interface
+# Arduino-Jetson-nano-stepper-interface
 Control Arduino uno/mega/nano with Jetson nano linux command line
 
 
@@ -9,4 +9,9 @@ Control Arduino uno/mega/nano with Jetson nano linux command line
   - To control arduino from Command line Source:https://github.com/arduino/arduino-cli
   
 # Hardware requirement
- - write hw requiremnt
+
+| Specification | Value |
+| ------------- | ------------- |
+| Arduino | Mega 2560 |
+| 3 Stepper  |87kgcm torque |
+| 3 limit switch | 5v |
