@@ -12,9 +12,9 @@ Control Multiple Stepper Motor with Arduino uno/mega/nano and Jetson nano
 
 | Specification | Value |
 | ------------- | ------------- |
-| Jetson Nano | Quad-core ARM A57 |
+| Jetson Nano | nano dev kit |
 | Arduino | Mega 2560 |
-| 3 Stepper with 6A driver  |87kgcm torque, Without Encoder |
+| 3 Stepper with 6A driver  |87kgcm torque, without Encoder |
 | 3 limit switch | 40-50mm length |
 | UART | USB-TTL cable |
 
