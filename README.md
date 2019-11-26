@@ -1,5 +1,5 @@
 # Arduino-Jetson-nano-stepper-interface
-Control Arduino uno/mega/nano with Jetson nano linux command line
+Control Multiple Stepper Motor with Arduino uno/mega/nano and Jetson nano
 
 
 ## Arduino installation
@@ -15,4 +15,7 @@ Control Arduino uno/mega/nano with Jetson nano linux command line
 | Arduino | Mega 2560 |
 | 3 Stepper with 6A driver  |87kgcm torque |
 | 3 limit switch | 40-50mm length |
-| UART | USB-UART cable |
+| UART | USB-TTL cable |
+
+# Reference 
+Stepper Motor control Library for Arduino: https://www.airspayce.com/mikem/arduino/AccelStepper/annotated.html
