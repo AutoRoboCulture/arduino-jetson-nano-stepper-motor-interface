@@ -35,5 +35,6 @@ To control steper motor from jetson nano via arduino
 
 2. [Train Mask-RCNN model on Custom Dataset for Multiple Objects](https://github.com/AutoRoboCulture/mask-rcnn-for-multiple-objects.git)
 
-3. [Delta Robot Simulation on Gazebo using MARA-Env](https://github.com/AutoRoboCulture/delta-robot-simulation-gazebo.git)
+3. [Delta Arm Simulation on Gazebo using MARA-Env](https://github.com/AutoRoboCulture/delta-robot-simulation-gazebo.git)
 
+4. [Weed removal robot using Delta Arm](https://github.com/AutoRoboCulture/nindamani-the-weed-removal-robot.git)
